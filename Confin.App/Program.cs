@@ -1,4 +1,6 @@
 ﻿using System;
+using Confin.Domain.Interfaces.Services;
+using Confin.Service.Services;
 
 namespace Confin.App
 {
@@ -6,7 +8,8 @@ namespace Confin.App
     {
         static void Main(string[] args)
         {
-            
+            IPlanejamentoService service = new PlanejamentoService();
+            service.GerarPlanejamento();
         }
     }
 }

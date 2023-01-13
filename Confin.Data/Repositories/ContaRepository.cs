@@ -67,8 +67,8 @@ public class ContaRepository : IContaRepository
                                       ,ativa
                                       FROM Conta 
                                 WHERE ativa 
-                                    AND dataexpiracao IS null 
-                                    OR dataexpiracao > current_date";
+                                    AND (dataexpiracao IS null 
+                                    OR dataexpiracao > current_date)";
 
         return await dbSession.Connection.QueryAsync<Conta>(query, null, dbSession.Transaction);
     }
