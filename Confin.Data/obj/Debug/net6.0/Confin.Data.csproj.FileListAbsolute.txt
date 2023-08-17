@@ -1,0 +1,5 @@
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.csproj.AssemblyReference.cache
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.AssemblyInfoInputs.cache
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.AssemblyInfo.cs
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.csproj.CoreCompileInputs.cache
