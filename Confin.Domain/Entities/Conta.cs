@@ -1,4 +1,4 @@
-﻿namespace Confin.Domain;
+﻿namespace Confin.Domain.Entities;
 
 public class Conta
 {   
