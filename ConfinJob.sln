@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confin.Data", "Confin.Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "confin.job", "confin.job\confin.job.csproj", "{1191458B-BB05-4CD9-BEDF-F8C07E830539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confin.Domain", "Confin.Domain\Confin.Domain.csproj", "{A21BED48-243D-4C5F-9E40-A87F0FCC9024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1191458B-BB05-4CD9-BEDF-F8C07E830539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1191458B-BB05-4CD9-BEDF-F8C07E830539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1191458B-BB05-4CD9-BEDF-F8C07E830539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21BED48-243D-4C5F-9E40-A87F0FCC9024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21BED48-243D-4C5F-9E40-A87F0FCC9024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21BED48-243D-4C5F-9E40-A87F0FCC9024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21BED48-243D-4C5F-9E40-A87F0FCC9024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
