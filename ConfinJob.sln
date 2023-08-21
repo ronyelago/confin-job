@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confin.Data", "Confin.Data\Confin.Data.csproj", "{253A1E7F-C57C-40BB-9089-DB2E8EF0E58E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "confin.job", "confin.job\confin.job.csproj", "{1191458B-BB05-4CD9-BEDF-F8C07E830539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confin.App", "Confin.App\Confin.App.csproj", "{1191458B-BB05-4CD9-BEDF-F8C07E830539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confin.Domain", "Confin.Domain\Confin.Domain.csproj", "{A21BED48-243D-4C5F-9E40-A87F0FCC9024}"
 EndProject

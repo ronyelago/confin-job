@@ -3,3 +3,13 @@
 /home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.AssemblyInfoInputs.cache
 /home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.AssemblyInfo.cs
 /home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.csproj.CoreCompileInputs.cache
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/Confin.Data.deps.json
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/Confin.Data.dll
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/ref/Confin.Data.dll
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/Confin.Data.pdb
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/Confin.Domain.dll
+/home/ronye/sources/confin-job/Confin.Data/bin/Debug/net6.0/Confin.Domain.pdb
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.csproj.CopyComplete
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.dll
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/ref/Confin.Data.dll
+/home/ronye/sources/confin-job/Confin.Data/obj/Debug/net6.0/Confin.Data.pdb

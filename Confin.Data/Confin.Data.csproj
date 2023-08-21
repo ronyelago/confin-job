@@ -22,4 +22,8 @@
 
 
 
+    <ItemGroup>
+      <ProjectReference Include="..\Confin.Domain\Confin.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

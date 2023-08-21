@@ -1,5 +1,4 @@
 using Dapper;
-using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System;
 using System.Collections.Generic;
@@ -11,18 +10,15 @@ namespace Confin.Data
 {
     public sealed class DbSession : IDbSession, IDisposable
     {
-        private Guid _id;
-        private readonly IConfiguration _configuration;
+        private Guid _id = Guid.NewGuid();
         public IDbConnection Connection { get; }
         public IDbTransaction Transaction { get; set; }
 
-        public DbSession(IConfiguration configuration)
+        public DbSession()
         {
-            _id = Guid.NewGuid();
-            _configuration = configuration;
             Connection = new NpgsqlConnection(Environment.GetEnvironmentVariable("CONFIN_CONNECTION_STRING"));
         }
-
+        
         public async Task<T> GetAsync<T>(string command, object parms)
         {
             return (await Connection.QueryAsync<T>(command, parms)

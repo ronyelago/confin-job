@@ -9,4 +9,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Confin.Data\Confin.Data.csproj" />
+    <ProjectReference Include="..\Confin.Domain\Confin.Domain.csproj" />
+  </ItemGroup>
 </Project>
