@@ -6,7 +6,8 @@ namespace Confin.Job
     {
         static void Main(string[] args)
         {
-            // TODO - Select * from Conta
+
+
         }
     }
 }

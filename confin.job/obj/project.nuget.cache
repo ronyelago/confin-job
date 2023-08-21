@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sb8TB/bz5YzcgK8Yn61eoRJUE7npzqIv48XlY3jjGFxue3PWp1bJQmv+CyBT1j85mG9JPtDwy3GBaAZAzMxCrQ==",
+  "dgSpecHash": "bDjnLTuWpYP73dnBlpnczvXeyE6k2l2/26UHdr+CxqmAK9ge2cBOummREUQ7USF/GlLBLWzTJLGVgvbxlnxH3g==",
   "success": true,
   "projectFilePath": "/home/ronye/sources/confin-job/confin.job/confin.job.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ronye/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/home/ronye/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/ronye/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/ronye/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
