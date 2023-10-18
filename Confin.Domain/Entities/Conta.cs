@@ -1,13 +1,12 @@
 ﻿namespace Confin.Domain.Entities;
 
-public class Conta
+public class Conta : BaseEntity
 {   
     public Conta()
     {
         ContasPagar = new List<ContaPagar>();
     }
-
-    public int Id { get; set; }
+    
     public string? Descricao { get; set; }
     public Variabilidade Variabilidade { get; set; }
     public bool Ativa { get; set; }

@@ -1,8 +1,7 @@
 namespace Confin.Domain.Entities;
 
-public class ContaPagar
+public class ContaPagar : BaseEntity
 {
-    public int Id { get; set; }
     public int CadastroContaId { get; set; }
     public Conta CadastroConta { get; set; }
     public decimal Valor { get; set; }
