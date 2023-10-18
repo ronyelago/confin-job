@@ -16,7 +16,7 @@ namespace Confin.Data
 
         public DbSession()
         {
-            Connection = new NpgsqlConnection(Environment.GetEnvironmentVariable("CONFIN_CONNECTION_STRING"));
+            Connection = new NpgsqlConnection(Environment.GetEnvironmentVariable(@"CONFIN_CONNECTION_STRING"));
         }
         
         public async Task<T> GetAsync<T>(string command, object parms)

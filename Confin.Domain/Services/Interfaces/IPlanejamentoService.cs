@@ -1,6 +1,6 @@
 namespace Confin.Domain.Services.Interfaces;
 
-public class IPlanejamentoService
+public interface IPlanejamentoService
 {
-    // de onde vamos obter o valor de uma ContaPagar?
+    Task GerarPlanejamento();
 }
