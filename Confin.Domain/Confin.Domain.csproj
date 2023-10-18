@@ -8,14 +8,24 @@
 
     <ItemGroup>
       <Compile Remove="Services\Implementation\**" />
+      <Compile Remove="Services\Interfaces\IPlanejamentoService.cs" />
+      <Compile Remove="Services\Interfaces\**" />
+      <Compile Remove="Services\**" />
+      <Compile Remove="Repositories\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="Services\Implementation\**" />
+      <EmbeddedResource Remove="Services\Interfaces\**" />
+      <EmbeddedResource Remove="Services\**" />
+      <EmbeddedResource Remove="Repositories\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Services\Implementation\**" />
+      <None Remove="Services\Interfaces\**" />
+      <None Remove="Services\**" />
+      <None Remove="Repositories\**" />
     </ItemGroup>
 
 </Project>

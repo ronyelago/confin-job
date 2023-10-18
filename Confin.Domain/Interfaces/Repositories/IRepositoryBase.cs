@@ -1,4 +1,4 @@
-namespace Confin.Domain.Repositories;
+namespace Confin.Domain.Interfaces.Repositories;
 
 public interface IRepositoryBase<T>
 {

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
-using Confin.Data.Interfaces;
 using Confin.Domain.Entities;
+using Confin.Domain.Interfaces.Repositories;
 using Dapper;
 
 namespace Confin.Data.Repositories;

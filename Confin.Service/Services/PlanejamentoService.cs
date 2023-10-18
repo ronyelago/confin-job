@@ -1,7 +1,7 @@
 using Confin.Data;
-using Confin.Data.Interfaces;
 using Confin.Data.Repositories;
-using Confin.Domain.Services.Interfaces;
+using Confin.Domain.Interfaces.Repositories;
+using Confin.Domain.Interfaces.Services;
 
 namespace Confin.Service.Services;
 
