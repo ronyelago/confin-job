@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Confin.Data\Confin.Data.csproj" />
       <ProjectReference Include="..\Confin.Domain\Confin.Domain.csproj" />
     </ItemGroup>
 
